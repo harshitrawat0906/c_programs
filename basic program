@@ -173,3 +173,140 @@ int main ()
 }
 
 -------------------------------------------------------
+#include <stdio.h>
+
+int main()
+{
+    float d,y,m,w;
+    scanf ("%f",&d);
+    y=d/365.0;
+    m=d/30.0;
+    w=d/7.0;
+    printf("%f years %f months %f weeks",y,m,w);
+    
+    return 0;
+}
+__________________________________________________________
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int x,y,squareroot;
+    scanf("%d",&x);
+    squareroot = sqrt(x);
+    printf("%d",squareroot);
+    return 0;
+}
+____________________________________________________________
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a1,a2,a3;
+    scanf("%d",a1);
+    scanf("%d",a2);
+    a3=180-(a1+a2);
+    printf("a3 = %d",a3);
+
+    return 0;
+}
+________________________________________________________________________
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int b,h,a;
+    scanf("%d",&b);
+    scanf("%d",&h);
+    a=0.5*b*h;
+    
+    printf("area = %d",a);
+
+    return 0;
+}
+_______________________________________________________________________________________
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float s,a;
+    scanf("%f",&s);
+    a=0.433*(pow(s,2));
+    
+    printf("area = %f",a);
+
+    return 0;
+}
+
+________________________________________________________________________________
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float m1,m2,m3,m4,m5,t,a,p;
+    scanf("%f",&m1);
+    scanf("%f",&m2);
+    scanf("%f",&m3);
+    scanf("%f",&m4);
+    scanf("%f",&m5);
+    t=m1+m2+m3+m4+m5;
+    a=t/5;
+    p=t/5;
+    printf("total = %f\n average = %f\n percentage = %f",t,a,p);
+
+    return 0;
+}
+
+
+___________________________________________________________________________________________________________
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float p,r,t,si;
+    scanf("%f",&p);
+    scanf("%f",&r);
+    scanf("%f",&t);
+    si = (p*r*t)/100;
+    printf("simple interest = %f",si);
+
+    return 0;
+}
+
+________________________________________________________________________________________________
+
+
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float p,r,t,ci,amount;
+    scanf("%f",&p);
+    scanf("%f",&r);
+    scanf("%f",&t);
+    amount = p*(pow((1+(r/100)),t));
+    ci=amount-p;
+    printf("compound interest = %f",ci);
+
+    return 0;
+}
+
+
