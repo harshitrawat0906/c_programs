@@ -1,4 +1,4 @@
-
+ques- to add two numbers 
 
 #include <stdio.h>
 
@@ -13,6 +13,8 @@ int main()
 }
 
 ________________________________________________________________________________________
+
+ques- to print different data types
 
 #include <stdio.h>
 
@@ -34,8 +36,7 @@ int main()
 }
 
 -------------------------------------------------------
-
-
+ques- all airthmatic operation
 
 #include <stdio.h>
 
@@ -56,7 +57,7 @@ int main()
 
 -------------------------------------------------------
 
-
+ques- to find perimeter of rectangle
 
 #include <stdio.h>
 
@@ -71,7 +72,7 @@ int main()
 }
 
 -------------------------------------------------------
-
+ques- to find area of rectangle
 
 #include <stdio.h>
 
@@ -79,15 +80,14 @@ int main()
 {
     int a, b ,sum;
     printf("enter length and breadth\n");
-    scanf(
-        "%d%d",&a,&b);
-        printf("area is=%d",sum=a*b);
+    scanf("%d%d",&a,&b);
+    printf("area is=%d",sum=a*b);
     return 0;
 }
 
 -------------------------------------------------------
 
-
+ques- to find circumference
 
 #include <stdio.h>
 
@@ -105,7 +105,7 @@ int main()
 
 -------------------------------------------------------
 
-
+ques- covert length in meter
 
 #include <stdio.h>
 
@@ -122,7 +122,7 @@ int main()
 }
 
 -------------------------------------------------------
-
+ques- to convert celecius
 
 #include <stdio.h>
 
@@ -139,7 +139,7 @@ int main()
 }
 
 -------------------------------------------------------
-
+ques- convert to ferenit
 
 #include <stdio.h>
 
@@ -157,7 +157,7 @@ int main()
 
 -------------------------------------------------------
 
-
+ques- to find power
 
 #include <stdio.h>
 #include <math.h>
@@ -173,6 +173,7 @@ int main ()
 }
 
 -------------------------------------------------------
+ques- to find number of yers days weeks
 #include <stdio.h>
 
 int main()
@@ -187,6 +188,8 @@ int main()
     return 0;
 }
 __________________________________________________________
+
+ques- to find squareroot
 #include <stdio.h>
 #include <math.h>
 
@@ -200,6 +203,7 @@ int main()
 }
 ____________________________________________________________
 
+ques-find third angle in triangle 
 
 #include <stdio.h>
 
@@ -215,7 +219,7 @@ int main()
 }
 ________________________________________________________________________
 
-
+ques- area of triangle
 
 
 #include <stdio.h>
@@ -232,7 +236,8 @@ int main()
     return 0;
 }
 _______________________________________________________________________________________
-
+ 
+ ques- area of eq triangle
 #include <stdio.h>
 #include <math.h>
 
@@ -248,6 +253,7 @@ int main()
 }
 
 ________________________________________________________________________________
+ques- to find total and average and percentage
 
 
 #include <stdio.h>
@@ -271,7 +277,7 @@ int main()
 
 
 ___________________________________________________________________________________________________________
-
+ques-calculate simple intrest
 
 #include <stdio.h>
 #include <math.h>
@@ -290,7 +296,7 @@ int main()
 
 ________________________________________________________________________________________________
 
-
+ques- calculate compound intrest
 
 
 #include <stdio.h>
@@ -309,4 +315,132 @@ int main()
     return 0;
 }
 
+____________________________________________________________________________________________________________
+
+ques- to finf max between 2 number
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("enter first number:");
+    scanf("%d",&a);
+    printf("enter second number:");
+    scanf("%d",&b);
+    if (a>b)
+    {
+        printf("%d",a);
+    }
+    else if(a<b)
+    {
+        printf("%d",b);
+    }
+    else
+    {
+        printf("both are equal");
+    }
+    return 0;
+}
+_____________________________________________________________________________________________________________
+
+ques - find max number bwtween 3 number
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter first number:");
+    scanf("%d",&a);
+    printf("enter second number:");
+    scanf("%d",&b);
+    printf("enter third number:");
+    scanf("%d",&c);
+    
+    if ((a>b) && (a>c))
+    {
+        printf("%d",a);
+    }
+    else if ((b>a) && (b>c))
+    {
+        printf("%d",b);
+    }
+    else
+    {
+        printf("%d",c);
+    }
+    return 0;
+}
+______________________________________________________________________________________________________________________
+
+ques-  to find number is even or not
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("enter first number");
+    scanf("%d",&a);
+    if (a%2==0)
+    {
+        printf("number is even");
+    }
+    else
+    {
+        printf("number is odd");
+    }
+    return 0;
+}
+_____________________________________________________________________________________________________
+ ques - to check alphabet
+ #include <stdio.h>
+
+int main()
+{
+    char c;
+    printf("enter value");
+    scanf("%c",&c);
+    if ((c >= 'a' && c<= 'z') || (c>='A' && c<='Z'))
+    {
+        printf("is alphabet");
+    }
+    else
+    {
+        printf("not alphabet");
+    }
+
+    return 0;
+}
+
+ques- to find leap year
+
+#include <stdio.h>
+
+int main()
+{
+    
+   int year;
+   printf("Enter a year: ");
+   scanf("%d", &year);
+
+   
+   if (year % 400 == 0) {
+      printf("%d is a leap year.", year);
+   }
+   else if (year % 100 == 0) {
+      printf("%d is not a leap year.", year);
+   }
+   
+   else if (year % 4 == 0) {
+      printf("%d is a leap year.", year);
+   }
+   else {
+      printf("%d is not a leap year.", year);
+   }
+
+    return 0;
+}
+_________________________________________________________________________________________________________
+
+ques -
 
