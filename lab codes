@@ -1,0 +1,29 @@
+ques - to check palindrome 
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,r=0,n,q;
+    scanf("%d",&a);
+    q=a;
+    while (a>0)
+    {
+        n=a%10;
+        r=r*10+n;
+        a=a/10;
+    }
+    if (q==r)
+    {
+        printf ("yes");
+    }
+    else 
+    {
+        printf ("no");
+    }
+        
+    
+
+    return 0;
+}
+________________________________________________________________________________________________
