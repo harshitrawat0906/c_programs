@@ -33,8 +33,7 @@ int main()
         printf("%d ",a[i]);
     }
     
-    
-    reversing an array
+ reversing an array
     #include <stdio.h>
 
 int main()
